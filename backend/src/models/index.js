@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-import User from './user';
+import Sender from './sender';
 import Message from './message';
 
 const connectDb = () => {
@@ -11,7 +11,7 @@ const connectDb = () => {
   });
 };
 
-const models = { User, Message };
+const models = { Sender, Message };
 
 export { connectDb };
 

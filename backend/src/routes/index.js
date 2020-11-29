@@ -1,9 +1,11 @@
 import session from './session';
-import user from './user';
+import sender from './sender';
 import message from './message';
+import user from './user';
  
 export default {
   session,
-  user,
+  sender,
   message,
+  user,
 };
